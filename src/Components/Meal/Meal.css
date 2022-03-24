@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@400;700&display=swap');
+
+.meal img{
+    width: 250px;
+    height: 250px;
+    margin: 8px;
+    border-radius: 8px;
+}
+.meal{
+    width: 280px;
+    height: 530px;
+    position: relative;
+    box-shadow: 0 0 10px lightgray;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 5px;
+    margin-bottom: 20px;
+    
+}
+.meal-info{
+    margin:0 14px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.description{
+    font-size: 19px;
+    font-weight: 600;
+}
+.meal-name{
+    font-family: 'Roboto', sans-serif;
+}
+.cart-btn{
+    width: 50%;
+    position: absolute;
+    border: none;
+    background: orange;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-text{
+    padding-top: 13px;
+    margin-right: 5px;
+}
+.cart-btn:hover{
+    background: orangered;
+}

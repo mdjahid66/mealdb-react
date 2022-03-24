@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@400;700&display=swap');
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: #4C3C3C;
+    height: 80px;
+    align-items: center;
+    padding-left:  140px;
+    padding-right:  140px;
+}
+.meal-db{
+    font-size: 25px;
+    color: orangered;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+}
+.meal-db:hover{
+    color: orange;
+}
+.header-info a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.header-info  a:hover{
+    color: orangered;
+}
+
+.button{
+    background: orangered;
+}
+.button:hover{
+    background: orange;
+}
