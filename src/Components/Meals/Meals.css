@@ -6,6 +6,7 @@
 .meals{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 50px 50px;
 }
 .title{
     font-family: 'Caveat', cursive;
@@ -17,3 +18,5 @@
 .cart-container{
     background: #5F4C4C;
 }
+
+

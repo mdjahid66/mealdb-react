@@ -10,6 +10,22 @@
     padding-left:  140px;
     padding-right:  140px;
 }
+
+.header input, button{
+    border: 0;
+    outline: 0px;
+
+}
+
+.header input{
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+}
+.header button{
+    border-radius: 0px 5px 5px 0px;
+    padding: 10px;
+    background: orangered;
+}
 .meal-db{
     font-size: 25px;
     color: orangered;
@@ -27,10 +43,6 @@
 }
 .header-info  a:hover{
     color: orangered;
-}
-
-.button{
-    background: orangered;
 }
 .button:hover{
     background: orange;
