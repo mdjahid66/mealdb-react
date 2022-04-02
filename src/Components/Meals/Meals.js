@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Meal from '../Meal/Meal';
 import './Meals.css'
+
+export const MyContext = React.createContext();
+
 const Meals = () => {
     const [meals, setMeals] = useState([]);
     const [cart, setCart] = useState([]);
@@ -18,19 +21,21 @@ const Meals = () => {
         setCart(newCart);
     }
     return (
-        <div className="meals-container">
-            <div>
-                <h1 className="text-center mt-4 title">Welcome to The <span id="mealdb">Mealdb</span></h1>
+        <MyContext.Provider value={'jahid'}>
+            <div className="meals-container">
+                <div>
+                    <h1 className="text-center mt-4 title">Welcome to The <span id="mealdb">Mealdb</span></h1>
 
-                <div className="meals">
-                    {meals.map(meal => <Meal meal={meal} key={meal.idMeal} addToCart={addToCart}></Meal>)}
+                    <div className="meals">
+                        {meals.map(meal => <Meal meal={meal} key={meal.idMeal} addToCart={addToCart}></Meal>)}
+                    </div>
                 </div>
-            </div>
-            <div className="cart-container">
+                <div className="cart-container">
 
-                <Cart cart={cart}></Cart>
-            </div>
-        </div >
+                    <Cart cart={cart}></Cart>
+                </div>
+            </div >
+        </MyContext.Provider>
 
 
 

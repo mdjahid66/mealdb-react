@@ -1,22 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Poppins:wght@300;400;500&family=Roboto:wght@300;400;500;700&family=Ubuntu:wght@400;700&display=swap');
-.meals-container{
+
+.meals-container {
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.meals{
+
+.meals {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 50px 50px;
+    gap: 10px;
 }
-.title{
+
+.title {
     font-family: 'Caveat', cursive;
     font-weight: 700;
 }
-#mealdb{
+
+#mealdb {
     color: orangered;
 }
-.cart-container{
+
+.cart-container {
     background: #5F4C4C;
 }
-
-
